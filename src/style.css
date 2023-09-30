@@ -1,0 +1,132 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* TodoBox styles */
+  .todobox {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    padding: 12px 24px; /* Increase padding for a longer button */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Add transition for a smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Add a subtle scale effect on hover */
+  }
+  .delete {
+    padding: 10px 20px;
+    background-color: transparent; /* Transparent background */
+    color: #ff5252; /* Red text color */
+    border: 2px solid #ff5252; /* Red border */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-left: 15px;/* Add some space between the checkbox and button */
+  }
+  
+  .delete:hover {
+    background-color: rgba(255, 82, 82, 0.1); /* Slight red background on hover */
+    transform: scale(1.05);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  /* Optional: Add a hover effect to list items */
+  li:hover {
+    background-color: #444;
+    transition: background-color 0.3s ease;
+  }
+  /* style.css */
+
+/* Add styles for completed todos */
+.completed {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+
+  .uncompleted {
+    text-decoration: none;
+  }
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: none;
+    color: grey;
+}
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
