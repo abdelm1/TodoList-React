@@ -2,10 +2,12 @@
 
 This is a simple TodoList web application built using React. It allows you to create, manage, and track your tasks conveniently.
 
-<div align="center">
-  <img src="screenshot1.png" alt="Screenshot 1" width="400" height="auto"/>
-  <img src="screenshot2.png" alt="Screenshot 2" width="400" height="auto"/>
-</div>
+<table>
+  <tr>
+    <td align="center"><img src="screenshot1.png" alt="Screenshot 1" width="400"></td>
+    <td align="center"><img src="screenshot2.png" alt="Screenshot 2" width="400"></td>
+  </tr>
+</table>
 
 ## Features
 
